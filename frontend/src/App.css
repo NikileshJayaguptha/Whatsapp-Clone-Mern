@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+  display: flex;
+  justify-content: center;
+}
+.App__body {
+  display: flex;
+  background-color: #ededed;
+  height: 925px;
+  width: 1450px;
+  z-index: 1;
+  position: absolute;
+  top:20px;
+  
+}
+
+.green{
+  z-index: 0;
+  height:100px;
+  width: 100vw;
+  background-color: #009688;
+  position: absolute;
+  top:0
+}
